@@ -12,16 +12,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        front1 = Typeface.createFromAsset(getAssets(),"customfronts/Android Insomnia Regular.ttf");
+        front1 = Typeface.createFromAsset(getAssets(), "customfonts/Android Insomnia Regular.ttf");
         tv1 =  (TextView)findViewById(R.id.tv1);
         tv1.setTypeface(front1);
-        front2 = Typeface.createFromAsset(getAssets(),"customfronts/android_7.ttf");
+        front2 = Typeface.createFromAsset(getAssets(), "customfonts/android_7.ttf");
         tv2 =  (TextView)findViewById(R.id.tv2);
         tv2.setTypeface(front2);
-        front3 = Typeface.createFromAsset(getAssets(),"customfronts/Blesed.otf");
+        front3 = Typeface.createFromAsset(getAssets(), "customfonts/Blesed.otf");
         tv3 =  (TextView)findViewById(R.id.tv3);
         tv3.setTypeface(front3);
-        front4 = Typeface.createFromAsset(getAssets(),"customfronts/Dan's Disney v5.ttf");
+        front4 = Typeface.createFromAsset(getAssets(), "customfonts/Dan's Disney v5.ttf");
         tv4 =  (TextView)findViewById(R.id.tv4);
         tv4.setTypeface(front4);
 
